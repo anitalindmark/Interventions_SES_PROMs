@@ -1,5 +1,5 @@
 # Interventions_SES_PROMs
-Code to perform the analyses in Lindmark, A. & Darehed, D. (2024). "Investigating hypothetical interventions to mitigate socioeconomic differences in Patient Reported Outcome Measures 3 months post-stroke among working-age patients: A nationwide register-based study"
+Code to perform the analyses in Lindmark, A. & Darehed, D. (2024). "Investigating multiple mediators to identify interventional targets to mitigate SES differences in PROMs: A nationwide register-based study"
 
 Contains the following code files:
 - "estimation_func.R" with the code for the function to estimate the interventional direct and indirect effects as described in Section 1.2 in the Supplementary Materials.
