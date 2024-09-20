@@ -48,6 +48,7 @@ stopCluster(cl)
 # Results #
 Estimates <- results$t0
 SE <- apply(results$t, 2, sd, na.rm=T)
+# CI and p-values based on normal approximation. Remember to check the bootstrap distribution, if no approximately normal use e.g. percentile method.
 CI_lower <- Estimates - qnorm(0.975)*SE
 CI_upper <- Estimates + qnorm(0.975)*SE
 p_value <- round(2*pnorm(abs(Estimates/SE), lower.tail = F),3)
