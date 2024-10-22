@@ -1,5 +1,5 @@
 # Interventions_SES_PROMs
-Code to perform the analyses in Lindmark, A. & Darehed, D. (2024). "Investigating multiple mediators as intervention targets to mitigate socioeconomic differences in PROMs after stroke".
+Code to perform the analyses in Lindmark, A. & Darehed, D. (2024). "Investigating multiple mediators to mitigate socioeconomic differences in patient reported outcomes after stroke: A nationwide register-based study".
 
 Contains the following code files:
 - "estimation_func.R" with the code for the function to estimate the interventional direct and indirect effects as described in Section 1.2 in the Supplementary Materials.
